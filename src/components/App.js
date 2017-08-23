@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="container">
         <ul className="meal-types">
-          {mealOrder                           .map((mealType)=>(
+          {mealOrder.map((mealType)=>(
             <li key={mealType} className="subheader">
               {capitalize(mealType)}
             </li>
